@@ -1,4 +1,4 @@
-# Project1
+# Employee-Management
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+- This application is about Employee Management is full of web application using Angular with Json DB and there is
+    1. Admin
+    2.User
+- Admin can ADD, DELETE, UPDATE etc.
+- New user can Register, and the existing user can login and enter to home page to perform an action to it.
