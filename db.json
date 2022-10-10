@@ -1,0 +1,48 @@
+{
+    "posts": [{
+            "id": 1,
+            "firstName": "Nawinkrishna",
+            "lastName": "AS",
+            "email": "nabc@gmail.com",
+            "mobile": "+91-74125896333",
+            "salary": "650000",
+            "doj": "18-july-2022"
+        },
+        {
+            "id": 2,
+            "firstName": "Pravinraj",
+            "lastName": "SS",
+            "email": "papap@gmail.com",
+            "mobile": "+91-1234567899",
+            "salary": "575000",
+            "doj": "18-july-2022"
+        },
+        {
+            "id": 3,
+            "firstName": "Nareshkumar",
+            "lastName": "S",
+            "email": "pp@gmail.com",
+            "mobile": "+91-7894561233",
+            "salary": "540000",
+            "doj": "1-june-2022"
+        }
+    ],
+    "signUpUsers": [{
+            "fullname": "Nawin",
+            "mobile": 425262627282,
+            "email": "abc@gmail.com",
+            "password": "Nabies@123",
+            "id": 1
+        },
+        {
+            "fullname": "Doreman",
+            "mobile": 7894561233,
+            "email": "doreman@gmail.com",
+            "password": "Nabies@0000",
+            "id": 2
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}

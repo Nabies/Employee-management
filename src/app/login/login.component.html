@@ -1,0 +1,115 @@
+<div class="back">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="text-center">
+                        <h1>Login</h1>
+                        <h6>Enter your Mail & Password !!</h6>
+                    </div>
+                    <form>
+                        <form [formGroup]="loginForm" (ngSubmit)="login()">
+                            <div class="form">
+                                <label class="form-label">Email address</label>
+                                <input formControlName="email" type="email" class="form-control">
+                                <span class="text-danger" *ngIf="loginForm.controls['email'].touched && loginForm.hasError('required','email')">*Email Id is required</span>
+
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Password</label>
+                                <input formControlName="password" type="password" class="form-control">
+                                <span class="text-danger" *ngIf="loginForm.controls['password'].touched && loginForm.hasError('required','password')">*Password  is required</span>
+                            </div>
+                            <div style="text-align: center;">
+                                <button type="submit" [disabled]="!loginForm.valid" class="btn btn-primary">Login</button>
+                            </div>
+                        </form>
+                        <a style="color:white; margin-top: 10px;" routerLink="/signUp">New User? Click Signup</a>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container-fluid">
+    <form>
+        <h2>Registration Form</h2>
+        <form [formGroup]="registrationForm">
+           
+            {{registrationForm.value | json}}
+
+            <div class="form-group">
+                <label>Username</label>
+                <input formControlName="userName" type="text" class="form-control">
+               
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input formControlName="password" type="password" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Confirm Password</label>
+                <input formControlName="confirmPassword" type="password" class="form-control">
+            </div>
+            <br>
+            <input type="reset" value="Reset" class="btn btn-danger" />
+        </form>
+
+        <form [formGroup]="address">
+            <h2>Address</h2>
+            {{address.value| json}}
+            <div class="form-group">
+                <label>City</label>
+                <input formControlName="city" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>State</label>
+                <input formControlName="state" type="text" class="form-control">
+            </div>
+
+
+            <div class="form-group">
+                <label>Postal Code</label>
+                <input formControlName="postalCode" type="text" class="form-control">
+            </div>
+
+            <br>
+            <button class="btn btn-primary" type="submit">Register</button>
+            <button (click)="loadData()" class="btn btn-secondary" type="button">Load Data</button>
+            <input type="reset" value="Reset" class="btn btn-danger" />
+        </form>
+    </form>
+
+</div> -->

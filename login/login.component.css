@@ -1,0 +1,30 @@
+.card {
+    border: none;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(147, 77, 205);
+    background: linear-gradient(90deg, rgb(41, 42, 112)0%, rgb(118, 65, 83)100%);
+}
+
+.card label h1,
+h6 {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.text-danger {
+    color: red;
+}
+
+.back {
+    background-image: url("/src/app/images/images.jpeg");
+}
+
+.background {}
